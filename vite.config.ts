@@ -4,6 +4,9 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vite.dev/config/
 export default defineConfig({
+  /* GitHub Pages 项目站点 — 资源路径前缀 */
+  base: '/club-recruitment/',
+
   plugins: [react()],
 
   /* === 路径别名 === */
